@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="scala" name="Scala">
+      <configuration>
+        <option name="compilerLibraryLevel" value="Project" />
+        <option name="compilerLibraryName" value="Gradle:: scala-compiler-bundle-2.9.1-1" />
+        <option name="compilerOptions" value="-target:jvm-1.5" />
+        <option name="deprecationWarnings" value="true" />
+        <option name="uncheckedWarnings" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/scalaExamples/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/groovy" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit-4.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: hamcrest-core-1.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jersey-client-1.8" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jersey-core-1.13-b01" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: neo4j-1.8.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: neo4j-index-1.2-1.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jersey-multipart-1.8" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jsr311-api-1.1.2.r612" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: gremlin-groovy-2.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: neo4j-rest-graphdb-1.8" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jena-core-2.7.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jackson-jaxrs-1.9.7" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: scala-library-2.9.1-1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: geronimo-jta_1.1_spec-1.1.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: neo4j-kernel-1.8.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: lucene-core-3.5.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: neo4j-lucene-index-1.8.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: neo4j-graph-algo-1.8.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: neo4j-udc-1.8.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: neo4j-graph-matching-1.8.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: concurrentlinkedhashmap-lru-1.3.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: neo4j-cypher-1.8.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: neo4j-jmx-1.8.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.servicemix.bundles.lucene-3.0.1_2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: mimepull-1.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: pipes-2.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: stax-api-1.0.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jettison-1.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: concurrent-1.3.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: colt-1.2.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jackson-core-asl-1.9.7" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jackson-mapper-asl-1.9.7" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: blueprints-core-2.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: gremlin-java-2.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: antlr-2.7.7" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: asm-3.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: asm-tree-3.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: asm-commons-3.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: asm-util-3.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: asm-analysis-3.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: groovy-1.8.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jansi-1.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: junit-3.8.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jline-0.9.94" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: slf4j-api-1.6.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: gmaven-feature-api-1.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: gmaven-feature-support-1.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: gmaven-runtime-api-1.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: gossip-1.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: gshell-io-2.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: plexus-utils-3.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: qdox-1.12" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: gmaven-runtime-support-1.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: groovy-all-1.8.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: ant-launcher-1.8.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: ant-1.8.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: gmaven-runtime-1.8-1.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-collections-3.2.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-lang-2.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-logging-1.1.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-beanutils-core-1.8.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-configuration-1.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-beanutils-1.8.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-digester-1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: server-api-1.8" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: log4j-1.2.16" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: slf4j-log4j12-1.6.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jena-iri-0.9.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: xml-apis-1.4.01" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: xercesImpl-2.10.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jersey-server-1.8" level="project" />
+  </component>
+</module>
+

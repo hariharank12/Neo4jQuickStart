@@ -1,5 +1,27 @@
 *.class
+target/
+# Package Files #
+*.jar
+*.war
+*.ear
+#*.iml
+.cache
+.classpath
+.project
+.gradle/
+.idea/
+gradlew
+gradlew.bat
+gradle/wrapper/
+build/tmp
+build/*
+.build/*
+.settings/org.eclipse.core.resources.prefs
+.settings/org.eclipse.jdt.core.prefs
+.settings/org.eclipse.m2e.core.prefs
 *.log
+out/
+bin/
 
 # sbt specific
 .cache/

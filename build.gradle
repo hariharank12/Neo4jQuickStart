@@ -1,0 +1,58 @@
+apply plugin: 'java'
+apply plugin: 'scala'
+apply plugin: 'groovy'
+
+sourceCompatibility = 1.5
+version = '1.0'
+def neo4jVersion = "1.8.3"
+def jerseyVersion = "1.8"
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+    maven {
+        url "http://m2.neo4j.org/releases"
+    }
+}
+
+sourceSets {
+    main {
+        scala {
+            srcDirs = ['scalaExamples/src']
+        }
+    }
+    test {
+        scala {
+            srcDirs = ['scalaExamples/src']
+        }
+    }
+}
+
+dependencies {
+    compile "com.sun.jersey:jersey-client:${jerseyVersion}"
+    compile "com.sun.jersey:jersey-server:1.8"
+    compile 'com.sun.jersey:jersey-core:1.13-b01'
+    compile "org.neo4j:neo4j:${neo4jVersion}"
+    compile "org.scala-lang:scala-library:2.9.1"
+    compile "org.neo4j:neo4j-index:1.2-1.2"
+    compile "com.sun.jersey.contribs:jersey-multipart:${jerseyVersion}"
+    compile "org.neo4j.3rdparty.javax.ws.rs:jsr311-api:1.1.2.r612"
+    compile "com.tinkerpop.gremlin:gremlin-groovy:2.0.0"
+    compile "org.neo4j:neo4j-rest-graphdb:1.8"
+    compile "org.codehaus.jackson:jackson-jaxrs:1.8.0"
+    compile 'org.apache.jena:jena-core:2.7.4'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile "org.scala-lang:scala-library:2.9.1"
+}
+
+// go to the project root folder and issue gradle run --stacktrace to run the below task
+// gradle build -x test to compile without test
+task run(type: JavaExec, dependsOn: classes) {
+    main = 'hari.scala.test.Sample'
+    classpath sourceSets.main.runtimeClasspath
+    classpath configurations.runtime
+}
+
+task showMeCache << {
+    configurations.compile.each { println it }
+}
