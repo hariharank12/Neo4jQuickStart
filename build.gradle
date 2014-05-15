@@ -14,7 +14,7 @@ repositories {
         url "http://m2.neo4j.org/releases"
     }
 }
-
+/*
 sourceSets {
     main {
         scala {
@@ -27,7 +27,7 @@ sourceSets {
         }
     }
 }
-
+*/
 dependencies {
     compile "com.sun.jersey:jersey-client:${jerseyVersion}"
     compile "com.sun.jersey:jersey-server:1.8"

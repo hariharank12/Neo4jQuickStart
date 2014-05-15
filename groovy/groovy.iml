@@ -18,6 +18,7 @@
     <orderEntry type="library" name="Gradle: jackson-core-asl-1.9.7" level="project" />
     <orderEntry type="library" name="Gradle: jackson-jaxrs-1.9.7" level="project" />
     <orderEntry type="library" name="Gradle: jackson-mapper-asl-1.9.7" level="project" />
+    <orderEntry type="library" name="Gradle: groovy-all-1.8.5" level="project" />
   </component>
 </module>
 
