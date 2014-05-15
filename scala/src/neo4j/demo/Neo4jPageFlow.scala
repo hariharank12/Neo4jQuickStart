@@ -39,7 +39,7 @@ class Neo4jPageFlow {
 
   def transformListToMap(input: NodesAndRef): VertexOut = {
 
-    def transformListToMapInner(input: Seq[(java.lang.String, List[java.lang.String], List[java.lang.String])], acc: VertexOut): VertexOut = {
+    def transformListToMapInner(input: NodesAndRef, acc: VertexOut): VertexOut = {
       if (input.isEmpty) acc
       else transformListToMapInner(input.tail, acc ++ Map(input.head._1 -> tupleListToMap(mapTwoList(input.head._2.head.split(",").toList, input.head._3.head.split(",").toList))))
     }
